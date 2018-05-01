@@ -1,21 +1,24 @@
 /* =Branding
 -----------------------------------------------------------------------------*/
 
-#header .contactdetails {
-  padding: 15px 0; 
+header .contactdetails {
+  padding: 0 0 15px 0; 
   color: #fff;
   font-size: 1.3em;
   line-height: 1.5em;
 }
 
-#header .email a { 
+header a,
+header a:visited,
+header a:link, 
+header a:active { 
   color: #fff;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 640px) {
 
-  #header .contactdetails { 
-    margin: 15px 15px 0 0; 
+  header .contactdetails { 
+    margin: 15px 15px 0 0;
   }
 
   .contactdetails { 
@@ -26,11 +29,11 @@
 
 @media (min-width: 900px) {
 
-  #header .contactdetails { 
+  header .contactdetails { 
     margin: 25px 60px 0 0; 
   }
 
-  #header { 
+  header { 
     font-size: 1.5em;
   }
 

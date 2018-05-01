@@ -4,17 +4,52 @@ body  {
   font-family: helvetica, verdana, tahoma, arial, "trebuchet ms";
 }
   
-h1,h2,h3, h4 { color: #1b477b; }
+h1, h2, h3, h4 { 
+  color: #1b477b;
+}
 
-h1.title { padding:0 0 3px 0; }
+h1.title { padding: 0 0 3px 0; }
 
-h1 { font-size:2.4em; font-weight:normal; }
-h2 { font-size:1.8em; padding:0 0 .2em 0; margin:1.2em 0 0.8em; font-weight:normal; border-bottom: 1px solid #1b477b; }
-h3 { font-size:1.4em; padding:0 0 0px 0; margin:1.2em 0 0.4em; font-weight:normal; }
+h1 { 
+  font-size: 1.8em;
+  font-weight:normal;
+}
 
-#sidebar h2 { border-bottom: 1px solid #ddd; }
+h2 { 
+  font-size: 1.4em;
+  padding: 0 0 .2em 0;
+  margin: 1.2em 0 0.8em;
+  font-weight: normal;
+  border-bottom: 1px solid #1b477b;
+}
 
-#sidebar img { margin: 0 auto; display: block; padding-top:5px; text-align: center; }
+h3 {
+  font-size: 1.4em;
+  padding: 0 0 0px 0;
+  margin: 1.2em 0 0.4em;
+  font-weight: normal;
+}
+
+@media (min-width: 650px) {
+  h1 { 
+    font-size: 2.4em;
+  }
+
+  h2 { 
+    font-size: 1.8em;
+  }
+}
+
+aside h2 { 
+  border-bottom: 1px solid #ddd;
+}
+
+aside img { 
+  margin: 0 auto; 
+  display: block; 
+  padding-top: 5px; 
+  text-align: center;
+}
 
 
 /* =Main Elements
